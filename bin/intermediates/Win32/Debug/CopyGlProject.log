@@ -1,0 +1,4 @@
+﻿bin\intermediates\Win32\Debug\/src\GPUApi\GL\/GLContext.obj : warning LNK4042: Objekt mehrmals angegeben; zusätzliche Objekte werden ignoriert.
+LINK : warning LNK4098: Standardbibliothek "MSVCRT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+Application.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: __thiscall gfm::INTERNAL::gpu::GL::GLContext::GLContext(enum gfm::INTERNAL::gpu::GraphicAPI)" (??0GLContext@GL@gpu@INTERNAL@gfm@@QAE@W4GraphicAPI@234@@Z)" in Funktion ""public: static __cdecl gfm::memory::DefaultAllocator::AllocateObject<class gfm::INTERNAL::gpu::GL::GLContext,enum gfm::INTERNAL::gpu::GraphicAPI &>(enum gfm::INTERNAL::gpu::GraphicAPI &)" (??$AllocateObject@VGLContext@GL@gpu@INTERNAL@gfm@@AAW4GraphicAPI@345@@DefaultAllocator@memory@gfm@@SA@AAW4GraphicAPI@gpu@INTERNAL@2@@Z)".
+bin\Win32\Debug)\CopyGlProject.exe : fatal error LNK1120: 1 nicht aufgelöste Externe

@@ -1,0 +1,46 @@
+﻿  GLContext.cpp
+  GLContext.h
+  GLIndexBuffer.cpp
+  GLBuffer.cpp
+src\GPUApi\GL\GLBuffer.cpp(57): warning C4002: Zu viele übergebene Parameter für das Makro "GFM_DEBUG_ASSERT"
+src\GPUApi\GL\GLBuffer.cpp(64): warning C4002: Zu viele übergebene Parameter für das Makro "GFM_DEBUG_ASSERT"
+  GLPipeline.cpp
+  GLPipelineLayout.cpp
+  GLVertexBuffer.cpp
+  Application.cpp
+  main.cpp
+  CStringHelper.h
+  String.h
+  StringCtor.cpp
+  StringFormatVarArg.cpp
+src\DataStructures\detail\String\StringFormatVarArg.cpp(116): warning C4544: "Dummy": Standardvorlagenargument wird für diese Vorlagendeklaration ignoriert
+  src\DataStructures\detail\String\StringFormatVarArg.cpp(111): note: Siehe Deklaration von "Dummy"
+  StringMember.cpp
+  StringVarArgMaxLen.h
+  StringVarArgWrapper.h
+  ObjectContainer.inl
+  GLShader.cpp
+  Buffer.cpp
+  VertexAttribute.h
+  GraphicObjectFactory.cpp
+  PipelineManager.cpp
+  Keyboard.cpp
+  Mouse.cpp
+  Window.cpp
+  MathConst.cpp
+  MemoryAllocator.cpp
+  UNIXChangeCoutColor.cpp
+  WINChangeCoutColor.cpp
+  AbstractRangeBased.h
+  Defaults.h
+  Date.cpp
+  Logger.cpp
+  FileOpenMode.cpp
+  FileStream.cpp
+  GetFileFromPath.cpp
+  ReadAllLines.cpp
+bin\intermediates\Win32\Release\/src\GPUApi\GL\/GLContext.obj : warning LNK4042: Objekt mehrmals angegeben; zusätzliche Objekte werden ignoriert.
+  Code wird generiert.
+  All 610 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  CopyGlProject.vcxproj -> D:\Visual Studio 2017\Projects\CopyGlProject\bin\Win32\Release)\CopyGlProject.exe

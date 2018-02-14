@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{247695c9-e15c-444c-92bd-b42a352128df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{2e5b8246-de33-4af0-ab8e-7993b55101cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{1d32296f-571e-473c-897a-0b56ce1a08ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{8f0e0440-a98a-4a50-b378-f45494251d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{d382865c-ef5d-405c-9abc-4f812ec63f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Resources">
+      <UniqueIdentifier>{19cd573f-b484-461e-aacd-083b18107648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{754460f6-14d7-4681-936e-3923bcfec6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D">
+      <UniqueIdentifier>{e38eb1be-bc6e-443d-986a-b269f0ccd67c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLBuffer.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex2DPrimitive.h">
+      <Filter>DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex2DPrimitive.cpp">
+      <Filter>DataStructures</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicGame.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShaderProgram.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShaderManager.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractRenderer.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShaderType.h">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GLVertexArray.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MathConst.h">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MathConst.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="MathConversion.h">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLBuffer.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Assertions.h" />
+    <ClInclude Include="BasicGame.h" />
+    <ClInclude Include="MacroHelper.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Keyboard.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardKeys.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseButtons.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GLShader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GLShaderProgram.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveRelease.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixCast.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixFactory.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixManipulation.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorCast.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeRenderer.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractRenderer.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeRenderer.cpp">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayFunc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GLVertexArray.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GLShaderManager.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="MathCalc.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\4Wins\resources\shader2Dprimitive.frag">
+      <Filter>Shader\Resources</Filter>
+    </None>
+    <None Include="..\4Wins\resources\shader2Dprimitive.vert">
+      <Filter>Shader\Resources</Filter>
+    </None>
+    <None Include="Matrix2x2.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Matrix3x3.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Matrix4x4.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Vector2D.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Vector3D.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Vector4D.inl">
+      <Filter>Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

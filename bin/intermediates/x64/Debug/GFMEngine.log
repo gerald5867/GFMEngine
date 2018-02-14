@@ -1,0 +1,443 @@
+﻿  main.cpp
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+  Logger.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.cpp(92): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<gfm::String,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String&,void>(const gfm::String::CharType *,gfm::String &,gfm::String &&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  ReadAllLines.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.inl(7): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const gfm::utils::CharType*,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,gfm::String &,const gfm::utils::CharType *&&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  d:\visual studio 2017\projects\gfmengine\src\utils\file\readalllines.cpp(14): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::utils::Logger::Error<const gfm::String&>(const gfm::String &,const gfm::String::CharType *,const gfm::String::CharType *,const gfm::String::CharType *,const gfm::String &) const".
+  GetFileFromPath.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  MemoryAllocator.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  HeapAllocator.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  Matrix4x4.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  Matrix3x3.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  Matrix2x2.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  Window.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  GLWindow.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  RectangleRenderer.cpp
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+  IRenderer2D.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  IRenderer.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  CircleRenderer.cpp
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+  Circle.cpp
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+  VertexAttribute.h
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+  PipelineManager.cpp
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+  GraphicObjectFactory.cpp
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+  GLVertexBuffer.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.inl(7): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const gfm::utils::CharType*,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,gfm::String &,const gfm::utils::CharType *&&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glvertexbuffer.cpp(14): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::utils::Logger::Error<>(const gfm::String &,const gfm::String::CharType *,const gfm::String::CharType *,const gfm::String::CharType *) const".
+  Code wird generiert...
+d:\visual studio 2017\projects\gfmengine\src\input\window.cpp(25): warning C4715: "gfm::input::Window::Create": Nicht alle Codepfade geben einen Wert zurück.
+  Kompilieren...
+  GLUniformBuffer.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.inl(7): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const gfm::utils::CharType*,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,gfm::String &,const gfm::utils::CharType *&&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\gluniformbuffer.cpp(18): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::utils::Logger::Error<>(const gfm::String &,const gfm::String::CharType *,const gfm::String::CharType *,const gfm::String::CharType *) const".
+  GLPipelineLayout.cpp
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glpipelinelayout.cpp(25): warning C4312: "reinterpret_cast": Konvertierung von "const gfm::utils::uint32" in größeren Typ "const void *"
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glpipelinelayout.cpp(75): warning C4312: "reinterpret_cast": Konvertierung von "const gfm::utils::uint32" in größeren Typ "const void *"
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glpipelinelayout.cpp(87): warning C4312: "reinterpret_cast": Konvertierung von "const gfm::utils::uint32" in größeren Typ "const void *"
+  GLPipeline.cpp
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\vertexattribute.h(61): error C3487: "unsigned int": Alle Rückgabeausdrücke müssen in denselben Typ hergeleitet werden: Zuvor war es "::size_t".
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glpipeline.cpp(121): warning C4267: "+=": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glpipeline.cpp(122): warning C4267: "+=": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glpipeline.cpp(144): warning C4267: "+=": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glpipeline.cpp(145): warning C4267: "+=": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+  GLIndexBuffer.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.inl(7): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const gfm::utils::CharType*,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,gfm::String &,const gfm::utils::CharType *&&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glindexbuffer.cpp(6): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::utils::Logger::Error<>(const gfm::String &,const gfm::String::CharType *,const gfm::String::CharType *,const gfm::String::CharType *) const".
+  GLGraphicCommandHandler.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.inl(7): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const gfm::utils::CharType*,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,gfm::String &,const gfm::utils::CharType *&&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glgraphiccommandhandler.cpp(7): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::utils::Logger::Error<>(const gfm::String &,const gfm::String::CharType *,const gfm::String::CharType *,const gfm::String::CharType *) const".
+  GLErrorHandler.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(240): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,gfm::String &,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glerrorhandler.cpp(13): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String gfm::String::Format<const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  GLContext.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.inl(19): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const gfm::utils::CharType*,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,gfm::String &,const gfm::utils::CharType *&&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glcontext.cpp(11): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::utils::Logger::FatalError<>(const gfm::String &,const gfm::String::CharType *,const gfm::String::CharType *,const gfm::String::CharType *) const".
+  GLBuffer.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.inl(7): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const gfm::utils::CharType*,const gfm::String::CharType*&,const gfm::String::CharType*&,const gfm::String::CharType*&,void>(const gfm::String::CharType *,gfm::String &,const gfm::utils::CharType *&&,const gfm::String::CharType *&,const gfm::String::CharType *&,const gfm::String::CharType *&)".
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glbuffer.cpp(42): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::utils::Logger::Error<>(const gfm::String &,const gfm::String::CharType *,const gfm::String::CharType *,const gfm::String::CharType *) const".
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glbuffer.cpp(38): note: Bei der Kompilierung von Klasse Vorlage der void gfm::INTERNAL::gpu::GL::GLBuffer<gfm::INTERNAL::gpu::GL::GLVertexBuffer>::Bind(void) noexcept const-Memberfunktion
+  d:\visual studio 2017\projects\gfmengine\src\gpuapi\gl\glbuffer.cpp(76): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "gfm::INTERNAL::gpu::GL::GLBuffer<gfm::INTERNAL::gpu::GL::GLVertexBuffer>", die kompiliert wird.
+  ErrorHandler.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  StringVarArgWrapper.h
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  StringMember.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringmember.cpp(301): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringmember.cpp(306): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringmember.cpp(312): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringmember.cpp(318): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringmember.cpp(407): warning C4244: "Argument": Konvertierung von "__int64" in "gfm::String::SizeType", möglicher Datenverlust
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\list\trivialcontainer.inl(10): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::detail::TrivialContainer<ValueType,Allocator>::SizeType", Datenverlust möglich
+          with
+          [
+              ValueType=gfm::String::CharType,
+              Allocator=gfm::memory::DefaultAllocator
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\list\trivialcontainer.inl(9): note: Bei der Kompilierung von Klasse Vorlage der gfm::detail::TrivialContainer<ValueType,Allocator>::TrivialContainer(const std::initializer_list<_Elem> &)-Memberfunktion
+          with
+          [
+              ValueType=gfm::String::CharType,
+              Allocator=gfm::memory::DefaultAllocator,
+              _Elem=wchar_t
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\list\triviallist.inl(11): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::detail::TrivialContainer<ValueType,Allocator>::TrivialContainer(const std::initializer_list<_Elem> &)".
+          with
+          [
+              ValueType=gfm::String::CharType,
+              Allocator=gfm::memory::DefaultAllocator,
+              _Elem=wchar_t
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\list\triviallist.inl(10): note: Bei der Kompilierung von Klasse Vorlage der gfm::detail::List<gfm::String::CharType,gfm::memory::DefaultAllocator,void>::List(const std::initializer_list<_Elem> &)-Memberfunktion
+          with
+          [
+              _Elem=wchar_t
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringmember.cpp(396): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::detail::List<gfm::String::CharType,gfm::memory::DefaultAllocator,void>::List(const std::initializer_list<_Elem> &)".
+          with
+          [
+              _Elem=wchar_t
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(99): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "gfm::detail::List<gfm::String::CharType,gfm::memory::DefaultAllocator,void>", die kompiliert wird.
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  StringFormatVarArg.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringformatvararg.cpp(8): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringformatvararg.cpp(35): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringformatvararg.cpp(83): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringformatvararg.cpp(96): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringformatvararg.cpp(116): warning C4544: "Dummy": Standardvorlagenargument wird für diese Vorlagendeklaration ignoriert
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringformatvararg.cpp(111): note: Siehe Deklaration von "Dummy"
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  StringCtor.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringctor.cpp(51): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringctor.cpp(55): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\stringctor.cpp(10): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<char>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              CharPtrType=char
+          ]
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  String.h
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  Application.cpp
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(253): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(155): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::InitializeFromCharPtr<ValueType>(const CharPtrType *,gfm::String::SizeType)".
+          with
+          [
+              ValueType=char,
+              CharPtrType=char
+          ]
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(130): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String::String<gfm::memory::DefaultAllocator>(const gfm::detail::List<char,gfm::memory::DefaultAllocator,void> &)".
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(256): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(261): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::utils::uint32", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(262): warning C4267: "Argument": Konvertierung von "size_t" nach "gfm::detail::CStringHelper::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(263): warning C4267: "=": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(199): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "gfm::String::SizeType", Datenverlust möglich
+  d:\visual studio 2017\projects\gfmengine\src\datastructures\detail\string\string.inl(240): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::String::FormatBuffer<const GLubyte*,void>(const gfm::String::CharType *,gfm::String &,const GLubyte *&&)".
+  d:\visual studio 2017\projects\gfmengine\src\utils\logger.inl(39): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "gfm::String gfm::String::Format<const GLubyte*,void>(const gfm::String::CharType *,const GLubyte *&&)".
+  d:\visual studio 2017\projects\gfmengine\src\application.cpp(73): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "void gfm::utils::Logger::Information<const GLubyte*>(const gfm::String &,const GLubyte *&&) const".
+  Code wird generiert...
+  Überspringen... (keine relevanten Änderungen gefunden)
+  CStringHelper.h

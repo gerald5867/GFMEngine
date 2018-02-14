@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Graphic\Rectangle.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\Keyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\Mouse.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\Window.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Memory\MemoryAllocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Policys\AbstractRangeBased.h" />
+    <ClCompile Include="src\DataStructures\detail\String\CStringHelper.h" />
+    <ClCompile Include="src\DataStructures\detail\String\String.h" />
+    <ClCompile Include="src\DataStructures\detail\String\StringCtor.cpp" />
+    <ClCompile Include="src\DataStructures\detail\String\StringMember.cpp" />
+    <ClCompile Include="src\DataStructures\detail\String\StringVarArgMaxLen.h" />
+    <ClCompile Include="src\DataStructures\detail\String\StringVarArgWrapper.h" />
+    <ClCompile Include="src\DataStructures\detail\List\ObjectContainer.inl" />
+    <ClCompile Include="src\Utils\Logger.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WINChangeCoutColor.cpp" />
+    <ClCompile Include="src\Platform\Unix\UNIXChangeCoutColor.cpp" />
+    <ClCompile Include="src\DataStructures\detail\String\StringFormatVarArg.cpp" />
+    <ClCompile Include="src\Utils\Date.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLBuffer.cpp">
+      <Filter>GLWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPUApi\GL\GLShader.cpp">
+      <Filter>GLWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GPUApi\GL\GLVertexBuffer.cpp" />
+    <ClCompile Include="src\GPUApi\Buffer.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLIndexBuffer.cpp" />
+    <ClCompile Include="src\Utils\File\FileStream.cpp" />
+    <ClCompile Include="src\Utils\File\GetFileFromPath.cpp" />
+    <ClCompile Include="src\Utils\File\ReadAllLines.cpp" />
+    <ClCompile Include="src\Utils\File\FileOpenMode.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLPipeline.cpp" />
+    <ClCompile Include="src\GPUApi\PipelineManager.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLPipelineLayout.cpp" />
+    <ClCompile Include="src\GPUApi\VertexAttribute.h" />
+    <ClCompile Include="src\GPUApi\GraphicObjectFactory.cpp" />
+    <ClCompile Include="src\GPUApi\ErrorHandler.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLErrorHandler.cpp" />
+    <ClCompile Include="src\GPUApi\GraphicCommandHandler.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLGraphicCommandHandler.cpp" />
+    <ClCompile Include="src\GPUApi\Context.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLContext.cpp" />
+    <ClCompile Include="src\Input\GL\GLWindow.cpp" />
+    <ClCompile Include="src\GPUApi\GraphicAPI.cpp" />
+    <ClCompile Include="src\Math\Constants.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Vector4D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Vector3D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Vector2D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Matrix4x4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Matrix3x3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Matrix2x2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphic\RectangleRenderer.cpp" />
+    <ClCompile Include="src\Memory\HeapAllocator.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLUniformBuffer.cpp" />
+    <ClCompile Include="src\Graphic\Circle.cpp" />
+    <ClCompile Include="src\Graphic\IRenderer2D.cpp" />
+    <ClCompile Include="src\Graphic\CircleRenderer.cpp" />
+    <ClCompile Include="src\Graphic\IRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Graphic\Rectangle.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphic\Shape.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\MathCalc.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TypeTraits\ArrayFunc.h">
+      <Filter>TypeTraits</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TypeTraits\VariadicIsIntegral.h">
+      <Filter>TypeTraits</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\Types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application.h" />
+    <ClInclude Include="src\Utils\SaveRelease.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Vector4D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Vector3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Vector2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\MatrixManipulation.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\MatrixFactory.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\MatrixCast.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Matrix4x4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Matrix3x3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Matrix2x2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Convertions.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\Keyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\KeyboardKeys.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\Mouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\MouseButtons.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\Window.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Memory\MemoryAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnitTest\MemoryAllocatorUnitTest.h">
+      <Filter>UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnitTest\UnitTest.h">
+      <Filter>UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DataStructures\String.h" />
+    <ClInclude Include="src\Memory\DefaultAllocator.h" />
+    <ClInclude Include="src\TypeTraits\Copy.h" />
+    <ClInclude Include="src\DataStructures\List.h" />
+    <ClInclude Include="src\Policys\Anyable.h" />
+    <ClInclude Include="src\DataStructures\detail\String\CompileTimeString.h" />
+    <ClInclude Include="src\DataStructures\detail\List\ObjectContainer.h" />
+    <ClInclude Include="src\DataStructures\detail\List\ObjectList.h" />
+    <ClInclude Include="src\DataStructures\detail\List\TrivialContainer.h" />
+    <ClInclude Include="src\DataStructures\detail\List\TrivialList.h" />
+    <ClInclude Include="src\Utils\Logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\ChangeCoutColor.h" />
+    <ClInclude Include="src\Platform\Windows\WINChangeCoutColor.h" />
+    <ClInclude Include="src\Platform\Unix\UNIXChangeCoutColor.h" />
+    <ClInclude Include="src\Algorithm\Sum.h" />
+    <ClInclude Include="src\TypeTraits\VariadicIsFloatingPoint.h" />
+    <ClInclude Include="src\TypeTraits\VariadicIsFormatType.h" />
+    <ClInclude Include="src\Utils\Date.h" />
+    <ClInclude Include="src\Policys\Singleton.h" />
+    <ClInclude Include="src\UnitTest\ListUnitTest.h" />
+    <ClInclude Include="src\GPUApi\GL\GLBuffer.h">
+      <Filter>GLWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GPUApi\GL\GLShader.h">
+      <Filter>GLWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GPUApi\GL\GL.h" />
+    <ClInclude Include="src\GPUApi\GL\GLVertexBuffer.h" />
+    <ClInclude Include="src\GPUApi\VertexBuffer.h" />
+    <ClInclude Include="src\GPUApi\BufferUsage.h" />
+    <ClInclude Include="src\GPUApi\Buffer.h" />
+    <ClInclude Include="src\GPUApi\BufferType.h" />
+    <ClInclude Include="src\GPUApi\IndexBuffer.h" />
+    <ClInclude Include="src\GPUApi\GL\GLIndexBuffer.h" />
+    <ClInclude Include="src\GPUApi\Shader.h" />
+    <ClInclude Include="src\GPUApi\ShaderType.h" />
+    <ClInclude Include="src\Utils\File\FileStream.h" />
+    <ClInclude Include="src\Utils\File\GetFileFromPath.h" />
+    <ClInclude Include="src\Utils\File\CFileHelper.h" />
+    <ClInclude Include="src\Utils\File\ReadAllLines.h" />
+    <ClInclude Include="src\Utils\File\FileOpenMode.h" />
+    <ClInclude Include="src\GPUApi\Pipeline.h" />
+    <ClInclude Include="src\GPUApi\GL\GLPipeline.h" />
+    <ClInclude Include="src\Algorithm\All.h" />
+    <ClInclude Include="src\Memory\UniquePointer.h" />
+    <ClInclude Include="src\Memory\MakeUnique.h" />
+    <ClInclude Include="src\Memory\DefaultDestroyer.h" />
+    <ClInclude Include="src\Memory\SmartPointerCast.h" />
+    <ClInclude Include="src\GPUApi\GL\Shader\ShaderSource.h" />
+    <ClInclude Include="src\GPUApi\PipelineType.h" />
+    <ClInclude Include="src\GPUApi\UniformAttribute.h" />
+    <ClInclude Include="src\GPUApi\GL\GLPipelineLayout.h" />
+    <ClInclude Include="src\GPUApi\PipelineLayout.h" />
+    <ClInclude Include="src\GPUApi\GraphicObjectFactory.h" />
+    <ClInclude Include="src\GPUApi\PipelineManager.h" />
+    <ClInclude Include="src\GPUApi\GraphicAPI.h" />
+    <ClInclude Include="src\DataStructures\Array.h" />
+    <ClInclude Include="src\GPUApi\Context.h" />
+    <ClInclude Include="src\GPUApi\ErrorHandler.h" />
+    <ClInclude Include="src\GPUApi\GL\GLErrorHandler.h" />
+    <ClInclude Include="src\GPUApi\GL\GLGraphicCommandHandler.h" />
+    <ClInclude Include="src\GPUApi\GraphicCommandHandler.h" />
+    <ClInclude Include="src\GPUApi\GL\GLContext.h" />
+    <ClInclude Include="src\Macro\Platform.h" />
+    <ClInclude Include="src\Macro\BestInline.h" />
+    <ClInclude Include="src\Macro\Debug.h" />
+    <ClInclude Include="src\Macro\Assertions.h" />
+    <ClInclude Include="src\Input\GL\GLWindow.h" />
+    <ClInclude Include="src\Macro\ApiCall.h" />
+    <ClInclude Include="src\Policys\Noncopyable.h" />
+    <ClInclude Include="src\Policys\Nonmoveable.h" />
+    <ClInclude Include="src\Macro\NoInline.h" />
+    <ClInclude Include="src\Math\Constants.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphic\Color.h" />
+    <ClInclude Include="src\Graphic\IRenderer.h" />
+    <ClInclude Include="src\Graphic\RectangleRenderer.h" />
+    <ClInclude Include="src\GPUApi\VertexBufferLayout.h" />
+    <ClInclude Include="src\GPUApi\TypeToVertexAttributeType.h" />
+    <ClInclude Include="src\Memory\HeapAllocator.h" />
+    <ClInclude Include="src\GPUApi\UniformBuffer.h" />
+    <ClInclude Include="src\GPUApi\GL\GLUniformBuffer.h" />
+    <ClInclude Include="src\DataStructures\detail\Dictionary.h" />
+    <ClInclude Include="src\Graphic\Circle.h" />
+    <ClInclude Include="src\Graphic\IRenderer2D.h" />
+    <ClInclude Include="src\Graphic\CircleRenderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\DataStructures\detail\List\ObjectList.inl" />
+    <None Include="src\DataStructures\detail\List\TrivialContainer.inl" />
+    <None Include="src\DataStructures\detail\List\TrivialList.inl" />
+    <None Include="src\DataStructures\detail\String\String.inl" />
+    <None Include="src\Utils\Logger.inl" />
+    <None Include="src\Memory\UniquePointer.inl" />
+    <None Include="src\DataStructures\Array.inl" />
+    <None Include="src\GPUApi\GL\Shader\CircleShader2D.vert" />
+    <None Include="src\GPUApi\GL\Shader\CircleShader2D.frag" />
+    <None Include="src\GPUApi\GL\Shader\RectangleShader2D.vert" />
+    <None Include="src\GPUApi\GL\Shader\RectangleShader2D.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{6ab3d819-7549-4ef8-9c30-a62b1ff5fcb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic">
+      <UniqueIdentifier>{42fa9756-aeae-448d-8fa3-242244bbd1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{99f6bb99-a234-4816-8089-1e078436f237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLWrapper">
+      <UniqueIdentifier>{481b19ca-9f37-4d8b-8caa-aed79fc0a180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{84e7c627-0db0-4f73-81ea-0d509d499d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TypeTraits">
+      <UniqueIdentifier>{1b974d54-5ab2-4636-91f7-098a3a9abf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic\Shader">
+      <UniqueIdentifier>{f63530d4-6059-443c-b107-11cebe191f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{7954e8c0-18fe-4f0a-93ac-00db2529897b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTest">
+      <UniqueIdentifier>{36e6b85c-eb79-41dc-8860-8e41b4349141}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\InfoFile.txt" />
+  </ItemGroup>
+</Project>

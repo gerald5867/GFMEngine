@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\GPUApi\Context.cpp" />
+    <ClCompile Include="src\GPUApi\ErrorHandler.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLGraphicCommandHandler.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLErrorHandler.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLContext.cpp" />
+    <ClInclude Include="src\DataStructures\detail\Dictionary.h" />
+    <ClInclude Include="src\GPUApi\GL\GLContext.h" />
+    <ClCompile Include="src\GPUApi\GL\GLIndexBuffer.cpp" />
+    <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\DataStructures\detail\String\CStringHelper.h" />
+    <ClCompile Include="src\DataStructures\detail\String\String.h" />
+    <ClCompile Include="src\DataStructures\detail\String\StringCtor.cpp" />
+    <ClCompile Include="src\DataStructures\detail\String\StringFormatVarArg.cpp" />
+    <ClCompile Include="src\DataStructures\detail\String\StringMember.cpp" />
+    <ClCompile Include="src\DataStructures\detail\List\ObjectContainer.inl" />
+    <ClCompile Include="src\DataStructures\detail\String\StringVarArgMaxLen.h" />
+    <ClCompile Include="src\DataStructures\detail\String\StringVarArgWrapper.h" />
+    <ClCompile Include="src\GPUApi\GL\GLBuffer.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLPipeline.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLPipelineLayout.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLShader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\GPUApi\GL\GLUniformBuffer.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLVertexBuffer.cpp" />
+    <ClCompile Include="src\GPUApi\Buffer.cpp" />
+    <ClCompile Include="src\GPUApi\GraphicAPI.cpp" />
+    <ClCompile Include="src\GPUApi\GraphicCommandHandler.cpp" />
+    <ClInclude Include="src\GPUApi\GL\GLUniformBuffer.h" />
+    <ClInclude Include="src\GPUApi\GraphicCommandHandler.h" />
+    <ClCompile Include="src\GPUApi\VertexAttribute.h" />
+    <ClCompile Include="src\GPUApi\GraphicObjectFactory.cpp" />
+    <ClCompile Include="src\GPUApi\PipelineManager.cpp" />
+    <ClCompile Include="src\Graphic\Circle.cpp" />
+    <ClCompile Include="src\Graphic\IRenderer.cpp" />
+    <ClCompile Include="src\Graphic\IRenderer2D.cpp" />
+    <ClCompile Include="src\Graphic\Rectangle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Graphic\RectangleRenderer.cpp" />
+    <ClCompile Include="src\Input\Keyboard.cpp" />
+    <ClCompile Include="src\Input\Mouse.cpp" />
+    <ClCompile Include="src\Input\Window.cpp" />
+    <ClCompile Include="src\Input\GL\GLWindow.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Math\Constants.cpp" />
+    <ClCompile Include="src\Memory\HeapAllocator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\Memory\MemoryAllocator.cpp" />
+    <ClCompile Include="src\Platform\Unix\UNIXChangeCoutColor.cpp" />
+    <ClCompile Include="src\Platform\Windows\WINChangeCoutColor.cpp" />
+    <ClCompile Include="src\Policys\AbstractRangeBased.h" />
+    <ClCompile Include="src\Utils\Date.cpp" />
+    <ClCompile Include="src\Utils\File\FileOpenMode.cpp" />
+    <ClCompile Include="src\Utils\File\FileStream.cpp" />
+    <ClCompile Include="src\Utils\File\GetFileFromPath.cpp" />
+    <ClCompile Include="src\Utils\File\ReadAllLines.cpp" />
+    <ClCompile Include="src\Utils\Logger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Algorithm\All.h" />
+    <ClInclude Include="src\DataStructures\Array.h" />
+    <ClInclude Include="src\GPUApi\Context.h" />
+    <ClInclude Include="src\GPUApi\ErrorHandler.h" />
+    <ClInclude Include="src\GPUApi\GL\GLGraphicCommandHandler.h" />
+    <ClInclude Include="src\GPUApi\GL\GLErrorHandler.h" />
+    <ClInclude Include="src\GPUApi\GraphicAPI.h" />
+    <ClInclude Include="src\GPUApi\GL\GLPipelineLayout.h" />
+    <ClInclude Include="src\GPUApi\GL\GLIndexBuffer.h" />
+    <ClInclude Include="src\Algorithm\Sum.h" />
+    <ClInclude Include="src\Application.h" />
+    <ClInclude Include="src\GPUApi\TypeToVertexAttributeType.h" />
+    <ClInclude Include="src\GPUApi\UniformBuffer.h" />
+    <ClInclude Include="src\GPUApi\VertexBufferLayout.h" />
+    <ClInclude Include="src\Graphic\Circle.h" />
+    <ClInclude Include="src\Graphic\CircleRenderer.h" />
+    <ClInclude Include="src\Graphic\Color.h" />
+    <ClInclude Include="src\Graphic\IRenderer.h" />
+    <ClInclude Include="src\Graphic\IRenderer2D.h" />
+    <ClInclude Include="src\Graphic\RectangleRenderer.h" />
+    <ClInclude Include="src\Input\Window.h" />
+    <ClInclude Include="src\Macro\ApiCall.h" />
+    <ClInclude Include="src\Macro\Assertions.h" />
+    <ClInclude Include="src\DataStructures\detail\String\CompileTimeString.h" />
+    <ClInclude Include="src\DataStructures\List.h" />
+    <ClInclude Include="src\DataStructures\detail\List\ObjectContainer.h" />
+    <ClInclude Include="src\DataStructures\detail\List\ObjectList.h" />
+    <ClInclude Include="src\DataStructures\detail\List\TrivialContainer.h" />
+    <ClInclude Include="src\DataStructures\detail\List\TrivialList.h" />
+    <ClInclude Include="src\DataStructures\String.h" />
+    <ClInclude Include="src\GPUApi\GL\GL.h" />
+    <ClInclude Include="src\GPUApi\GL\GLBuffer.h" />
+    <ClInclude Include="src\GPUApi\GL\GLPipeline.h" />
+    <ClInclude Include="src\GPUApi\GL\GLShader.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\GPUApi\GL\GLVertexBuffer.h" />
+    <ClInclude Include="src\GPUApi\Buffer.h" />
+    <ClInclude Include="src\GPUApi\BufferType.h" />
+    <ClInclude Include="src\GPUApi\BufferUsage.h" />
+    <ClInclude Include="src\GPUApi\PipelineLayout.h" />
+    <ClInclude Include="src\GPUApi\GL\Shader\ShaderSource.h" />
+    <ClInclude Include="src\GPUApi\GraphicObjectFactory.h" />
+    <ClInclude Include="src\GPUApi\IndexBuffer.h" />
+    <ClInclude Include="src\GPUApi\Pipeline.h" />
+    <ClInclude Include="src\GPUApi\PipelineManager.h" />
+    <ClInclude Include="src\GPUApi\PipelineType.h" />
+    <ClInclude Include="src\GPUApi\Shader.h" />
+    <ClInclude Include="src\GPUApi\ShaderType.h" />
+    <ClInclude Include="src\GPUApi\UniformAttribute.h" />
+    <ClInclude Include="src\GPUApi\VertexBuffer.h" />
+    <ClInclude Include="src\Graphic\Rectangle.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="src\Graphic\Shape.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Input\Keyboard.h" />
+    <ClInclude Include="src\Input\KeyboardKeys.h" />
+    <ClInclude Include="src\Input\Mouse.h" />
+    <ClInclude Include="src\Input\MouseButtons.h" />
+    <ClInclude Include="src\Input\GL\GLWindow.h" />
+    <ClInclude Include="src\Macro\BestInline.h" />
+    <ClInclude Include="src\Macro\Debug.h" />
+    <ClInclude Include="src\Macro\NoInline.h" />
+    <ClInclude Include="src\Macro\Platform.h" />
+    <ClInclude Include="src\Math\Convertions.h" />
+    <ClInclude Include="src\Math\MathCalc.h" />
+    <ClInclude Include="src\Math\Constants.h" />
+    <ClInclude Include="src\Math\Matrix.h" />
+    <ClInclude Include="src\Math\Matrix2x2.h" />
+    <ClInclude Include="src\Math\Matrix3x3.h" />
+    <ClInclude Include="src\Math\Matrix4x4.h" />
+    <ClInclude Include="src\Math\MatrixCast.h" />
+    <ClInclude Include="src\Math\MatrixFactory.h" />
+    <ClInclude Include="src\Math\MatrixManipulation.h" />
+    <ClInclude Include="src\Math\Vector.h" />
+    <ClInclude Include="src\Math\Vector2D.h" />
+    <ClInclude Include="src\Math\Vector3D.h" />
+    <ClInclude Include="src\Math\Vector4D.h" />
+    <ClInclude Include="src\Memory\DefaultAllocator.h" />
+    <ClInclude Include="src\Memory\DefaultDestroyer.h" />
+    <ClInclude Include="src\Memory\HeapAllocator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="src\Memory\MakeUnique.h" />
+    <ClInclude Include="src\Memory\MemoryAllocator.h" />
+    <ClInclude Include="src\Memory\SmartPointerCast.h" />
+    <ClInclude Include="src\Memory\UniquePointer.h" />
+    <ClInclude Include="src\Platform\ChangeCoutColor.h" />
+    <ClInclude Include="src\Platform\Unix\UNIXChangeCoutColor.h" />
+    <ClInclude Include="src\Platform\Windows\WINChangeCoutColor.h" />
+    <ClInclude Include="src\Policys\Anyable.h" />
+    <ClInclude Include="src\Policys\Noncopyable.h" />
+    <ClInclude Include="src\Policys\Nonmoveable.h" />
+    <ClInclude Include="src\Policys\Singleton.h" />
+    <ClInclude Include="src\TypeTraits\ArrayFunc.h" />
+    <ClInclude Include="src\TypeTraits\Copy.h" />
+    <ClInclude Include="src\TypeTraits\VariadicIsFloatingPoint.h" />
+    <ClInclude Include="src\TypeTraits\VariadicIsFormatType.h" />
+    <ClInclude Include="src\TypeTraits\VariadicIsIntegral.h" />
+    <ClInclude Include="src\UnitTest\ListUnitTest.h" />
+    <ClInclude Include="src\UnitTest\MemoryAllocatorUnitTest.h" />
+    <ClInclude Include="src\UnitTest\UnitTest.h" />
+    <ClInclude Include="src\Utils\File\CFileHelper.h" />
+    <ClInclude Include="src\Utils\Date.h" />
+    <ClInclude Include="src\Utils\File\FileOpenMode.h" />
+    <ClInclude Include="src\Utils\File\FileStream.h" />
+    <ClInclude Include="src\Utils\File\GetFileFromPath.h" />
+    <ClInclude Include="src\Utils\File\ReadAllLines.h" />
+    <ClInclude Include="src\Utils\Logger.h" />
+    <ClInclude Include="src\Utils\SaveRelease.h" />
+    <ClInclude Include="src\Utils\Types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\DataStructures\Array.inl" />
+    <None Include="src\DataStructures\detail\String\String.inl" />
+    <None Include="src\DataStructures\detail\List\TrivialList.inl" />
+    <None Include="src\DataStructures\detail\List\ObjectList.inl" />
+    <None Include="src\DataStructures\detail\List\TrivialContainer.inl" />
+    <None Include="src\GPUApi\GL\Shader\CircleShader2D.frag" />
+    <None Include="src\GPUApi\GL\Shader\CircleShader2D.vert" />
+    <None Include="src\GPUApi\GL\Shader\RectangleShader2D.frag" />
+    <None Include="src\GPUApi\GL\Shader\RectangleShader2D.vert">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ExcludedFromBuild>
+    </None>
+    <ClCompile Include="src\Math\Matrix2x2.cpp" />
+    <ClCompile Include="src\Math\Matrix3x3.cpp" />
+    <ClCompile Include="src\Math\Matrix4x4.cpp" />
+    <ClCompile Include="src\Math\Vector2D.cpp" />
+    <ClCompile Include="src\Math\Vector3D.cpp" />
+    <ClCompile Include="src\Math\Vector4D.cpp" />
+    <ClCompile Include="src\Graphic\CircleRenderer.cpp" />
+    <None Include="src\Memory\UniquePointer.inl" />
+    <None Include="src\Utils\Logger.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\InfoFile.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8F25D63B-3307-4235-B2A5-45BDC99699A5}</ProjectGuid>
+    <RootNamespace>CopyGlProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SoultionDir)bin\$(Platform)\$(Configuration))\</OutDir>
+    <IntDir>$(SoultionDir)bin\objfiles\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SoultionDir)bin\$(Platform)\$(Configuration))\</OutDir>
+    <IntDir>$(SoultionDir)bin\objfiles\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SoultionDir)bin\$(Platform)\$(Configuration))\</OutDir>
+    <IntDir>$(SoultionDir)bin\intermediates\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SoultionDir)bin\$(Platform)\$(Configuration))\</OutDir>
+    <IntDir>$(SoultionDir)bin\intermediates\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\cpp\glm;$(SolutionDir)thirdparty\glew\include;$(SolutionDir)thirdparty\glfw\include;$(SolutionDir)CoreEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ObjectFileName>$(IntDir)/</ObjectFileName>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)thirdparty/glew/lib/Release/Win32;$(SolutionDir)thirdparty/glfw/lib;$(SolutionDir)thirdparty/opengl;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.Lib;glfw3.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\cpp\glm;$(SolutionDir)thirdparty\glew\include;$(SolutionDir)thirdparty\glfw\include;$(SolutionDir)CoreEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)thirdparty/glew/lib/Release/Win32;$(SolutionDir)thirdparty/glfw/lib;$(SolutionDir)thirdparty/opengl;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.Lib;glfw3.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\cpp\glm;$(SolutionDir)thirdparty\glew\include;$(SolutionDir)thirdparty\glfw\include;$(SolutionDir)CoreEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)thirdparty/glew/lib/Release/Win32;$(SolutionDir)thirdparty/glfw/lib;$(SolutionDir)thirdparty/opengl;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.Lib;glfw3.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/VERBOSE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\cpp\glm;$(SolutionDir)thirdparty\glew\include;$(SolutionDir)thirdparty\glfw\include;$(SolutionDir)CoreEngine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)thirdparty/glew/lib/Release/Win32;$(SolutionDir)thirdparty/glfw/lib;$(SolutionDir)thirdparty/opengl;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenGL32.Lib;glfw3.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

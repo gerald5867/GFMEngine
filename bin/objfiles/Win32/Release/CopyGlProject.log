@@ -1,0 +1,1572 @@
+﻿  
+  Durchlauf 1 gestartet
+  /DEFAULTLIB:msvcprt wurde verarbeitet.
+  /DEFAULTLIB:MSVCRT wurde verarbeitet.
+  /DEFAULTLIB:OLDNAMES wurde verarbeitet.
+  /DEFAULTLIB:uuid.lib wurde verarbeitet.
+  
+  Bibliotheken werden durchsucht.
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/opengl\OpenGL32.Lib:
+        __imp__glClear@4 gefunden.
+          In "GLGraphicCommandHandler.obj" referenziert
+          "OpenGL32.Lib(OPENGL32.dll)" geladen
+        __imp__glDrawElements@16 gefunden.
+          In "GLGraphicCommandHandler.obj" referenziert
+          "OpenGL32.Lib(OPENGL32.dll)" geladen
+        __imp__glGetError@0 gefunden.
+          In "GLErrorHandler.obj" referenziert
+          "OpenGL32.Lib(OPENGL32.dll)" geladen
+        __imp__glViewport@16 gefunden.
+          In "Application.obj" referenziert
+          "OpenGL32.Lib(OPENGL32.dll)" geladen
+        __imp__glGetString@4 gefunden.
+          In "Application.obj" referenziert
+          "OpenGL32.Lib(OPENGL32.dll)" geladen
+        __IMPORT_DESCRIPTOR_OPENGL32 gefunden.
+          In "OpenGL32.Lib(OPENGL32.dll)" referenziert
+          In "OpenGL32.Lib(OPENGL32.dll)" referenziert
+          In "OpenGL32.Lib(OPENGL32.dll)" referenziert
+          In "OpenGL32.Lib(OPENGL32.dll)" referenziert
+          In "OpenGL32.Lib(OPENGL32.dll)" referenziert
+          "OpenGL32.Lib(OPENGL32.dll)" geladen
+        __NULL_IMPORT_DESCRIPTOR gefunden.
+          In "OpenGL32.Lib(OPENGL32.dll)" referenziert
+          "OpenGL32.Lib(OPENGL32.dll)" geladen
+        OPENGL32_NULL_THUNK_DATA gefunden.
+          In "OpenGL32.Lib(OPENGL32.dll)" referenziert
+          "OpenGL32.Lib(OPENGL32.dll)" geladen
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glfw/lib\glfw3.lib:
+        _glfwTerminate gefunden.
+          In "GLContext.obj" referenziert
+          "glfw3.lib(init.c.obj)" geladen
+        _glfwPollEvents gefunden.
+          In "GLContext.obj" referenziert
+          "glfw3.lib(window.c.obj)" geladen
+        _glfwSwapInterval gefunden.
+          In "Application.obj" referenziert
+          "glfw3.lib(context.c.obj)" geladen
+        _glfwSetMouseButtonCallback gefunden.
+          In "GLWindow.obj" referenziert
+          "glfw3.lib(input.c.obj)" geladen
+        __glfwPlatformInit gefunden.
+          In "glfw3.lib(init.c.obj)" referenziert
+          "glfw3.lib(win32_init.c.obj)" geladen
+        __glfwPlatformGetMonitors gefunden.
+          In "glfw3.lib(init.c.obj)" referenziert
+          "glfw3.lib(win32_monitor.c.obj)" geladen
+        __glfwPlatformGetTimerValue gefunden.
+          In "glfw3.lib(init.c.obj)" referenziert
+          In "glfw3.lib(input.c.obj)" referenziert
+          "glfw3.lib(win32_time.c.obj)" geladen
+        __glfwFreeMonitors gefunden.
+          In "glfw3.lib(init.c.obj)" referenziert
+          "glfw3.lib(monitor.c.obj)" geladen
+        __glfwTerminateVulkan gefunden.
+          In "glfw3.lib(init.c.obj)" referenziert
+          "glfw3.lib(vulkan.c.obj)" geladen
+        __glfwPlatformCreateWindow gefunden.
+          In "glfw3.lib(window.c.obj)" referenziert
+          "glfw3.lib(win32_window.c.obj)" geladen
+        __glfwPlatformGetCurrentContext gefunden.
+          In "glfw3.lib(window.c.obj)" referenziert
+          In "glfw3.lib(context.c.obj)" referenziert
+          "glfw3.lib(win32_tls.c.obj)" geladen
+        __glfwPlatformJoystickPresent gefunden.
+          In "glfw3.lib(input.c.obj)" referenziert
+          "glfw3.lib(win32_joystick.c.obj)" geladen
+        __glfwTerminateWGL gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          "glfw3.lib(wgl_context.c.obj)" geladen
+        __glfwTerminateEGL gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          "glfw3.lib(egl_context.c.obj)" geladen
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glew/lib/Release/Win32\glew32.lib:
+        __imp__glewInit@0 gefunden.
+          In "GLContext.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewBufferData gefunden.
+          In "GLIndexBuffer.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewBindBuffer gefunden.
+          In "GLBuffer.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewGenBuffers gefunden.
+          In "GLBuffer.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewDeleteBuffers gefunden.
+          In "GLBuffer.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewUseProgram gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewCreateProgram gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewValidateProgram gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewGetProgramiv gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewAttachShader gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewDeleteProgram gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewDetachShader gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewGetProgramInfoLog gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewLinkProgram gefunden.
+          In "GLPipeline.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewEnableVertexAttribArray gefunden.
+          In "GLPipelineLayout.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewBindVertexArray gefunden.
+          In "GLPipelineLayout.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewVertexAttribPointer gefunden.
+          In "GLPipelineLayout.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewDeleteVertexArrays gefunden.
+          In "GLPipelineLayout.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewGenVertexArrays gefunden.
+          In "GLPipelineLayout.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewGetShaderiv gefunden.
+          In "GLShader.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewCompileShader gefunden.
+          In "GLShader.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewCreateShader gefunden.
+          In "GLShader.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewGetShaderInfoLog gefunden.
+          In "GLShader.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewShaderSource gefunden.
+          In "GLShader.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __imp____glewDeleteShader gefunden.
+          In "GLShader.obj" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        __IMPORT_DESCRIPTOR_glew32 gefunden.
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          In "glew32.lib(glew32.dll)" referenziert
+          "glew32.lib(glew32.dll)" geladen
+        glew32_NULL_THUNK_DATA gefunden.
+          In "glew32.lib(glew32.dll)" referenziert
+          "glew32.lib(glew32.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\kernel32.lib:
+        __imp__SetConsoleTextAttribute@8 gefunden.
+          In "WINChangeCoutColor.obj" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetStdHandle@4 gefunden.
+          In "WINChangeCoutColor.obj" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__FreeLibrary@4 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(vulkan.c.obj)" referenziert
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          In "glfw3.lib(egl_context.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetModuleHandleW@4 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetProcAddress@8 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(vulkan.c.obj)" referenziert
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          In "glfw3.lib(egl_context.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__LoadLibraryA@4 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(vulkan.c.obj)" referenziert
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          In "glfw3.lib(egl_context.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__MultiByteToWideChar@24 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__WideCharToMultiByte@32 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__QueryPerformanceCounter@4 gefunden.
+          In "glfw3.lib(win32_time.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__QueryPerformanceFrequency@4 gefunden.
+          In "glfw3.lib(win32_time.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GlobalAlloc@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GlobalLock@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GlobalUnlock@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GlobalFree@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__TlsAlloc@0 gefunden.
+          In "glfw3.lib(win32_tls.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__TlsGetValue@4 gefunden.
+          In "glfw3.lib(win32_tls.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__TlsSetValue@8 gefunden.
+          In "glfw3.lib(win32_tls.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__TlsFree@4 gefunden.
+          In "glfw3.lib(win32_tls.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetLastError@0 gefunden.
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __IMPORT_DESCRIPTOR_KERNEL32 gefunden.
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        KERNEL32_NULL_THUNK_DATA gefunden.
+          In "kernel32.lib(KERNEL32.dll)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\user32.lib:
+        __imp__RegisterDeviceNotificationW@12 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__CreateWindowExW@48 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__DestroyWindow@4 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__ShowWindow@8 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SystemParametersInfoW@16 gefunden.
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__ChangeDisplaySettingsExW@20 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__EnumDisplaySettingsW@12 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__EnumDisplaySettingsExW@16 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__EnumDisplayDevicesW@16 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__TrackMouseEvent@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__TranslateMessage@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__DispatchMessageW@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__PeekMessageW@20 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetMessageTime@0 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SendMessageW@16 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__PostMessageW@16 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__WaitMessage@0 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__DefWindowProcW@16 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__UnregisterClassW@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__RegisterClassExW@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__MoveWindow@24 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetWindowPos@28 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__IsWindowVisible@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__IsIconic@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__BringWindowToTop@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__IsZoomed@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__OpenClipboard@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__CloseClipboard@0 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetClipboardData@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetClipboardData@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__EmptyClipboard@0 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetFocus@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetActiveWindow@0 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetKeyState@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetAsyncKeyState@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetKeyNameTextW@12 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetCapture@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__ReleaseCapture@0 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__MsgWaitForMultipleObjects@20 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetSystemMetrics@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetForegroundWindow@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetDC@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__ReleaseDC@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetPropW@12 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetPropW@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__RemovePropW@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetWindowTextW@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetClientRect@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetWindowRect@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__AdjustWindowRectEx@16 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetCursorPos@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetCursor@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetCursorPos@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__ClipCursor@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__ClientToScreen@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__ScreenToClient@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__WindowFromPoint@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetRect@20 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__PtInRect@12 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetWindowLongW@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__SetWindowLongW@12 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetClassLongW@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__LoadCursorW@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__DestroyIcon@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__LoadImageW@24 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__CreateIconIndirect@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__CopyIcon@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetRawInputDeviceInfoA@16 gefunden.
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __imp__GetRawInputDeviceList@12 gefunden.
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        __IMPORT_DESCRIPTOR_USER32 gefunden.
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          In "user32.lib(USER32.dll)" referenziert
+          "user32.lib(USER32.dll)" geladen
+        USER32_NULL_THUNK_DATA gefunden.
+          In "user32.lib(USER32.dll)" referenziert
+          "user32.lib(USER32.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\gdi32.lib:
+        __imp__CreateDCW@16 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__DeleteDC@4 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__GetDeviceCaps@8 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__GetDeviceGammaRamp@8 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__SetDeviceGammaRamp@8 gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__CreateBitmap@20 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__DeleteObject@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__CreateDIBSection@24 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__ChoosePixelFormat@8 gefunden.
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__DescribePixelFormat@16 gefunden.
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__SetPixelFormat@12 gefunden.
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __imp__SwapBuffers@4 gefunden.
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        __IMPORT_DESCRIPTOR_GDI32 gefunden.
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          In "gdi32.lib(GDI32.dll)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+        GDI32_NULL_THUNK_DATA gefunden.
+          In "gdi32.lib(GDI32.dll)" referenziert
+          "gdi32.lib(GDI32.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\winspool.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\comdlg32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\advapi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\shell32.lib:
+        __imp__DragQueryFileW@16 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "shell32.lib(SHELL32.dll)" geladen
+        __imp__DragQueryPoint@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "shell32.lib(SHELL32.dll)" geladen
+        __imp__DragFinish@4 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "shell32.lib(SHELL32.dll)" geladen
+        __imp__DragAcceptFiles@8 gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "shell32.lib(SHELL32.dll)" geladen
+        __IMPORT_DESCRIPTOR_SHELL32 gefunden.
+          In "shell32.lib(SHELL32.dll)" referenziert
+          In "shell32.lib(SHELL32.dll)" referenziert
+          In "shell32.lib(SHELL32.dll)" referenziert
+          In "shell32.lib(SHELL32.dll)" referenziert
+          "shell32.lib(SHELL32.dll)" geladen
+        SHELL32_NULL_THUNK_DATA gefunden.
+          In "shell32.lib(SHELL32.dll)" referenziert
+          "shell32.lib(SHELL32.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\ole32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\oleaut32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\uuid.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\odbc32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\odbccp32.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\msvcprt.lib:
+        "void __cdecl std::_Throw_C_error(int)" (?_Throw_C_error@std@@YAXH@Z) gefunden.
+          In "GLContext.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        __Mtx_lock gefunden.
+          In "GLContext.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        __Mtx_unlock gefunden.
+          In "GLContext.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "void __cdecl std::_Xbad_function_call(void)" (?_Xbad_function_call@std@@YAXXZ) gefunden.
+          In "StringMember.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > std::cout" (__imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "bool __cdecl std::uncaught_exception(void)" (?uncaught_exception@std@@YA_NXZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (__imp_?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::put(char)" (__imp_?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (__imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (__imp_?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (__imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (__imp_?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (__imp_?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > & (__cdecl*)(class std::basic_ostream<char,struct std::char_traits<char> > &))" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QAE_J_J@Z) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBE_JXZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: int __thiscall std::ios_base::flags(void)const " (__imp_?flags@ios_base@std@@QBEHXZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: bool __thiscall std::ios_base::good(void)const " (__imp_?good@ios_base@std@@QBE_NXZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: int __thiscall std::ios_base::rdstate(void)const " (__imp_?rdstate@ios_base@std@@QBEHXZ) gefunden.
+          In "main.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        __Xtime_get_ticks gefunden.
+          In "Date.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > std::wcout" (__imp_?wcout@std@@3V?$basic_ostream@_WU?$char_traits@_W@std@@@1@A) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        __Mtx_destroy_in_situ gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        __Mtx_init_in_situ gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > * __thiscall std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::tie(void)const " (__imp_?tie@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QBEPAV?$basic_ostream@_WU?$char_traits@_W@std@@@2@XZ) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: void __thiscall std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEXXZ) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: void __thiscall std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::setstate(int,bool)" (__imp_?setstate@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QAEXH_N@Z) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> > * __thiscall std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::rdbuf(void)const " (__imp_?rdbuf@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QBEPAV?$basic_streambuf@_WU?$char_traits@_W@std@@@2@XZ) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: wchar_t __thiscall std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::fill(void)const " (__imp_?fill@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QBE_WXZ) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: wchar_t __thiscall std::basic_ios<wchar_t,struct std::char_traits<wchar_t> >::widen(char)const " (__imp_?widen@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QBE_WD@Z) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sputn(wchar_t const *,__int64)" (__imp_?sputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QAE_JPB_W_J@Z) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __thiscall std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::put(wchar_t)" (__imp_?put@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV12@_W@Z) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __thiscall std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::flush(void)" (__imp_?flush@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV12@XZ) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: unsigned short __thiscall std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sputc(wchar_t)" (__imp_?sputc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QAEG_W@Z) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        "__declspec(dllimport) public: class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & __thiscall std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> >::operator<<(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > & (__cdecl*)(class std::basic_ostream<wchar_t,struct std::char_traits<wchar_t> > &))" (__imp_??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z) gefunden.
+          In "Logger.obj" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        __IMPORT_DESCRIPTOR_MSVCP140 gefunden.
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+        MSVCP140_NULL_THUNK_DATA gefunden.
+          In "msvcprt.lib(MSVCP140.dll)" referenziert
+          "msvcprt.lib(MSVCP140.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\MSVCRT.lib:
+        @__security_check_cookie@4 gefunden.
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          In "glfw3.lib(egl_context.c.obj)" referenziert
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          In "glfw3.lib(monitor.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          In "Context.obj" referenziert
+          In "glfw3.lib(init.c.obj)" referenziert
+          In "glfw3.lib(window.c.obj)" referenziert
+          In "glfw3.lib(context.c.obj)" referenziert
+          "MSVCRT.lib(_secchk_.obj)" geladen
+        "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z) gefunden.
+          In "Context.obj" referenziert
+          "MSVCRT.lib(new_scalar.obj)" geladen
+        "void __cdecl operator delete(void *)" (??3@YAXPAX@Z) gefunden.
+          In "Context.obj" referenziert
+          "MSVCRT.lib(delete_scalar.obj)" geladen
+        "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z) gefunden.
+          In "Context.obj" referenziert
+          "MSVCRT.lib(delete_scalar_size.obj)" geladen
+        "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z) gefunden.
+          In "ErrorHandler.obj" referenziert
+          "MSVCRT.lib(delete_array.obj)" geladen
+        "const type_info::`vftable'" (??_7type_info@@6B@) gefunden.
+          In "ErrorHandler.obj" referenziert
+          "MSVCRT.lib(std_type_info_static.obj)" geladen
+        ___report_rangecheckfailure gefunden.
+          In "GLErrorHandler.obj" referenziert
+          "MSVCRT.lib(gs_report.obj)" geladen
+        "void __stdcall `eh vector destructor iterator'(void *,unsigned int,unsigned int,void (__thiscall*)(void *))" (??_M@YGXPAXIIP6EX0@Z@Z) gefunden.
+          In "GLErrorHandler.obj" referenziert
+          "MSVCRT.lib(ehvecdtr.obj)" geladen
+        ___dyn_tls_init@12 gefunden.
+          In "GLPipeline.obj" referenziert
+          "MSVCRT.lib(tlsdyn.obj)" geladen
+        __Init_thread_epoch gefunden.
+          In "GLPipeline.obj" referenziert
+          "MSVCRT.lib(thread_safe_statics.obj)" geladen
+        _atexit gefunden.
+          In "GLPipeline.obj" referenziert
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "MSVCRT.lib(utility.obj)" geladen
+        ___tlregdtor gefunden.
+          In "GLPipeline.obj" referenziert
+          "MSVCRT.lib(tlsdtor.obj)" geladen
+        "void __stdcall `eh vector constructor iterator'(void *,unsigned int,unsigned int,void (__thiscall*)(void *),void (__thiscall*)(void *))" (??_L@YGXPAXIIP6EX0@Z1@Z) gefunden.
+          In "main.obj" referenziert
+          "MSVCRT.lib(ehvecctr.obj)" geladen
+        "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z) gefunden.
+          In "MemoryAllocator.obj" referenziert
+          "MSVCRT.lib(new_array.obj)" geladen
+        _mainCRTStartup gefunden.
+          "MSVCRT.lib(exe_main.obj)" geladen
+        __chkstk gefunden.
+          In "glfw3.lib(init.c.obj)" referenziert
+          "MSVCRT.lib(chkstk.obj)" geladen
+        ___security_cookie gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          In "MSVCRT.lib(utility.obj)" referenziert
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          In "glfw3.lib(egl_context.c.obj)" referenziert
+          In "MSVCRT.lib(_secchk_.obj)" referenziert
+          In "MSVCRT.lib(gs_report.obj)" referenziert
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          In "glfw3.lib(monitor.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          In "glfw3.lib(init.c.obj)" referenziert
+          In "glfw3.lib(window.c.obj)" referenziert
+          In "glfw3.lib(context.c.obj)" referenziert
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          "MSVCRT.lib(gs_cookie.obj)" geladen
+        __fltused gefunden.
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          In "glfw3.lib(window.c.obj)" referenziert
+          In "glfw3.lib(input.c.obj)" referenziert
+          In "glfw3.lib(monitor.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          "MSVCRT.lib(fltused.obj)" geladen
+        __dtoul3 gefunden.
+          In "glfw3.lib(input.c.obj)" referenziert
+          "MSVCRT.lib(_ftol3_.obj)" geladen
+        "void __cdecl __scrt_throw_std_bad_alloc(void)" (?__scrt_throw_std_bad_alloc@@YAXXZ) gefunden.
+          In "MSVCRT.lib(new_scalar.obj)" referenziert
+          "MSVCRT.lib(throw_bad_alloc.obj)" geladen
+        @_guard_check_icall@4 gefunden.
+          In "MSVCRT.lib(tlsdtor.obj)" referenziert
+          In "MSVCRT.lib(ehvecctr.obj)" referenziert
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          In "MSVCRT.lib(ehvecdtr.obj)" referenziert
+          In "MSVCRT.lib(tlsdyn.obj)" referenziert
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "MSVCRT.lib(checkcfg.obj)" geladen
+        __SEH_epilog4 gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          In "MSVCRT.lib(ehvecdtr.obj)" referenziert
+          In "MSVCRT.lib(tlsdyn.obj)" referenziert
+          In "MSVCRT.lib(utility.obj)" referenziert
+          In "MSVCRT.lib(ehvecctr.obj)" referenziert
+          "MSVCRT.lib(_sehprolg4_.obj)" geladen
+        __except_handler4 gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          In "MSVCRT.lib(_sehprolg4_.obj)" referenziert
+          In "MSVCRT.lib(ehvecdtr.obj)" referenziert
+          In "MSVCRT.lib(tlsdyn.obj)" referenziert
+          In "MSVCRT.lib(utility.obj)" referenziert
+          In "MSVCRT.lib(ehvecctr.obj)" referenziert
+          "MSVCRT.lib(_chandler4gs_.obj)" geladen
+        ___scrt_fastfail gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          In "MSVCRT.lib(utility.obj)" referenziert
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(utility_desktop.obj)" geladen
+        __tls_array gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          In "MSVCRT.lib(tlsdtor.obj)" referenziert
+          "MSVCRT.lib(atlssup.obj)" geladen
+        __tls_index gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          In "MSVCRT.lib(tlsdtor.obj)" referenziert
+          "MSVCRT.lib(tlssup.obj)" geladen
+        ___isa_available_init gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "MSVCRT.lib(_cpu_disp_.obj)" geladen
+        __get_startup_argv_mode gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(argv_mode.obj)" geladen
+        ___scrt_is_ucrt_dll_in_use gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "MSVCRT.lib(ucrt_detection.obj)" geladen
+        ___security_init_cookie gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(gs_support.obj)" geladen
+        __matherr gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(matherr.obj)" geladen
+        __get_startup_commit_mode gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(commit_mode.obj)" geladen
+        __get_startup_file_mode gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(file_mode.obj)" geladen
+        __get_startup_new_mode gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(new_mode.obj)" geladen
+        __get_startup_thread_locale_mode gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(thread_locale.obj)" geladen
+        "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ) gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(tncleanup.obj)" geladen
+        __should_initialize_environment gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(env_mode.obj)" geladen
+        __initialize_default_precision gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(default_precision.obj)" geladen
+        __initialize_invalid_parameter_handler gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(invalid_parameter_handler.obj)" geladen
+        __initialize_denormal_control gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(denormal_control.obj)" geladen
+        ___scrt_initialize_default_local_stdio_options gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(default_local_stdio_options.obj)" geladen
+        ___scrt_is_user_matherr_present gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(matherr_detection.obj)" geladen
+        ___scrt_get_dyn_tls_init_callback gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(dyn_tls_init.obj)" geladen
+        ___scrt_get_dyn_tls_dtor_callback gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(dyn_tls_dtor.obj)" geladen
+        __RTC_Initialize gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(_initsect_.obj)" geladen
+        ___xi_a gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "MSVCRT.lib(initializers.obj)" geladen
+  /DEFAULTLIB:kernel32.lib wurde verarbeitet.
+   /DISALLOWLIB:msvcrtd.lib wurde verarbeitet.
+   /DISALLOWLIB:libcmt.lib wurde verarbeitet.
+   /DISALLOWLIB:libcmtd.lib wurde verarbeitet.
+  /DEFAULTLIB:vcruntime.lib wurde verarbeitet.
+   /DISALLOWLIB:vcruntimed.lib wurde verarbeitet.
+   /DISALLOWLIB:libvcruntime.lib wurde verarbeitet.
+   /DISALLOWLIB:libvcruntimed.lib wurde verarbeitet.
+  /DEFAULTLIB:ucrt.lib wurde verarbeitet.
+   /DISALLOWLIB:ucrtd.lib wurde verarbeitet.
+   /DISALLOWLIB:libucrt.lib wurde verarbeitet.
+   /DISALLOWLIB:libucrtd.lib wurde verarbeitet.
+        ___guard_check_icall_fptr gefunden.
+          In "MSVCRT.lib(checkcfg.obj)" referenziert
+          "MSVCRT.lib(guard_support.obj)" geladen
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\OLDNAMES.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\vcruntime.lib:
+        ___CxxFrameHandler3 gefunden.
+          In "Context.obj" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        ___std_terminate gefunden.
+          In "Context.obj" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        __purecall gefunden.
+          In "ErrorHandler.obj" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        ___std_exception_destroy gefunden.
+          In "GLErrorHandler.obj" referenziert
+          In "MSVCRT.lib(throw_bad_alloc.obj)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        ___std_exception_copy gefunden.
+          In "GLErrorHandler.obj" referenziert
+          In "MSVCRT.lib(throw_bad_alloc.obj)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        _memmove gefunden.
+          In "main.obj" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        _memset gefunden.
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          In "MSVCRT.lib(utility_desktop.obj)" referenziert
+          In "glfw3.lib(init.c.obj)" referenziert
+          In "glfw3.lib(window.c.obj)" referenziert
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        __imp__strstr gefunden.
+          In "glfw3.lib(context.c.obj)" referenziert
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        ___vcrt_InitializeCriticalSectionEx gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        __CxxThrowException@8 gefunden.
+          In "MSVCRT.lib(throw_bad_alloc.obj)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        __except_handler4_common gefunden.
+          In "MSVCRT.lib(_chandler4gs_.obj)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        ___std_type_info_destroy_list gefunden.
+          In "MSVCRT.lib(tncleanup.obj)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        __IMPORT_DESCRIPTOR_VCRUNTIME140 gefunden.
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+        VCRUNTIME140_NULL_THUNK_DATA gefunden.
+          In "vcruntime.lib(VCRUNTIME140.dll)" referenziert
+          "vcruntime.lib(VCRUNTIME140.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\ucrt\x86\ucrt.lib:
+        __imp___wtoi gefunden.
+          In "GLErrorHandler.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __imp__isdigit gefunden.
+          In "GLErrorHandler.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp___wassert gefunden.
+          In "GLErrorHandler.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __imp__mbstowcs gefunden.
+          In "StringCtor.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __imp____stdio_common_vswprintf gefunden.
+          In "StringCtor.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__wcstof gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __imp__towlower gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp__iswspace gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp__wcstoull gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __imp___wtof gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __imp__wcstoul gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __imp__wcstoll gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __imp__towupper gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp__wcsncmp gefunden.
+          In "StringMember.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp__iswdigit gefunden.
+          In "GLPipeline.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp__strncpy gefunden.
+          In "main.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp___invalid_parameter_noinfo_noreturn gefunden.
+          In "main.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __imp___ctime64 gefunden.
+          In "Date.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)" geladen
+        __imp__ftell gefunden.
+          In "FileStream.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__fopen gefunden.
+          In "FileStream.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__fclose gefunden.
+          In "FileStream.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__fseek gefunden.
+          In "FileStream.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__fwrite gefunden.
+          In "FileStream.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp___wfopen gefunden.
+          In "FileStream.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__fread gefunden.
+          In "FileStream.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__wcstombs gefunden.
+          In "GLShader.obj" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __imp____stdio_common_vsprintf gefunden.
+          In "glfw3.lib(init.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__calloc gefunden.
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          In "glfw3.lib(egl_context.c.obj)" referenziert
+          In "glfw3.lib(monitor.c.obj)" referenziert
+          In "glfw3.lib(vulkan.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          In "glfw3.lib(window.c.obj)" referenziert
+          In "glfw3.lib(input.c.obj)" referenziert
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        __imp__free gefunden.
+          In "glfw3.lib(wgl_context.c.obj)" referenziert
+          In "glfw3.lib(egl_context.c.obj)" referenziert
+          In "glfw3.lib(monitor.c.obj)" referenziert
+          In "glfw3.lib(vulkan.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          In "glfw3.lib(window.c.obj)" referenziert
+          In "glfw3.lib(input.c.obj)" referenziert
+          In "glfw3.lib(win32_init.c.obj)" referenziert
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        __imp__strncmp gefunden.
+          In "glfw3.lib(context.c.obj)" referenziert
+          In "glfw3.lib(egl_context.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp____stdio_common_vsscanf gefunden.
+          In "glfw3.lib(context.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __imp__realloc gefunden.
+          In "glfw3.lib(win32_monitor.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        __imp___strdup gefunden.
+          In "glfw3.lib(monitor.c.obj)" referenziert
+          In "glfw3.lib(win32_window.c.obj)" referenziert
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __imp__qsort gefunden.
+          In "glfw3.lib(monitor.c.obj)" referenziert
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)" geladen
+        __libm_sse2_pow_precise gefunden.
+          In "glfw3.lib(monitor.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" geladen
+        __libm_sse2_sqrt_precise gefunden.
+          In "glfw3.lib(win32_joystick.c.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" geladen
+        __callnewh gefunden.
+          In "MSVCRT.lib(new_scalar.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        _malloc gefunden.
+          In "MSVCRT.lib(new_scalar.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        _terminate gefunden.
+          In "MSVCRT.lib(ehvecdtr.obj)" referenziert
+          In "MSVCRT.lib(tlsdyn.obj)" referenziert
+          In "MSVCRT.lib(utility_desktop.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __seh_filter_dll gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __configure_narrow_argv gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __initialize_narrow_environment gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __initialize_onexit_table gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __register_onexit_function gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __execute_onexit_table gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __crt_atexit gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __crt_at_quick_exit gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __cexit gefunden.
+          In "MSVCRT.lib(utility.obj)" referenziert
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __free_base gefunden.
+          In "MSVCRT.lib(tlsdtor.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        __malloc_base gefunden.
+          In "MSVCRT.lib(tlsdtor.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        __seh_filter_exe gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __set_app_type gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        ___setusermatherr gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" geladen
+        __get_initial_narrow_environment gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __initterm gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __initterm_e gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        _exit gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __exit gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __set_fmode gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        ___p___argc gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        ___p___argv gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __c_exit gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __register_thread_local_exe_atexit_callback gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __configthreadlocale gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)" geladen
+        __set_new_mode gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        ___p__commode gefunden.
+          In "MSVCRT.lib(exe_main.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __except1 gefunden.
+          In "MSVCRT.lib(_ftol3_.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" geladen
+        __controlfp_s gefunden.
+          In "MSVCRT.lib(default_precision.obj)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-convert-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-time-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-utility-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" referenziert
+          In "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" geladen
+        __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0 gefunden.
+          In "ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)" geladen
+        api-ms-win-crt-convert-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-convert-l1-1-0.dll)" geladen
+        api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)" geladen
+        api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)" geladen
+        api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)" geladen
+        api-ms-win-crt-time-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-time-l1-1-0.dll)" geladen
+        api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)" geladen
+        api-ms-win-crt-utility-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-utility-l1-1-0.dll)" geladen
+        api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)" geladen
+        api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA gefunden.
+          In "ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)" referenziert
+          "ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)" geladen
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/opengl\OpenGL32.Lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glfw/lib\glfw3.lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glew/lib/Release/Win32\glew32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\kernel32.lib:
+        __imp__UnhandledExceptionFilter@4 gefunden.
+          In "MSVCRT.lib(gs_report.obj)" referenziert
+          In "MSVCRT.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__SetUnhandledExceptionFilter@4 gefunden.
+          In "MSVCRT.lib(gs_report.obj)" referenziert
+          In "MSVCRT.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetCurrentProcess@0 gefunden.
+          In "MSVCRT.lib(gs_report.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__TerminateProcess@8 gefunden.
+          In "MSVCRT.lib(gs_report.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        _IsProcessorFeaturePresent@4 gefunden.
+          In "MSVCRT.lib(gs_report.obj)" referenziert
+          In "MSVCRT.lib(utility_desktop.obj)" referenziert
+          In "MSVCRT.lib(_cpu_disp_.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__CloseHandle@4 gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__EnterCriticalSection@4 gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__LeaveCriticalSection@4 gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__DeleteCriticalSection@4 gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__SetEvent@4 gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__ResetEvent@4 gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__WaitForSingleObjectEx@12 gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__CreateEventW@16 gefunden.
+          In "MSVCRT.lib(thread_safe_statics.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__IsDebuggerPresent@0 gefunden.
+          In "MSVCRT.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetStartupInfoW@4 gefunden.
+          In "MSVCRT.lib(utility_desktop.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetCurrentProcessId@0 gefunden.
+          In "MSVCRT.lib(gs_support.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetCurrentThreadId@0 gefunden.
+          In "MSVCRT.lib(gs_support.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__GetSystemTimeAsFileTime@4 gefunden.
+          In "MSVCRT.lib(gs_support.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+        __imp__InitializeSListHead@4 gefunden.
+          In "MSVCRT.lib(tncleanup.obj)" referenziert
+          "kernel32.lib(KERNEL32.dll)" geladen
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\user32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\gdi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\winspool.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\comdlg32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\advapi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\shell32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\ole32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\oleaut32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\uuid.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\odbc32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\odbccp32.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\msvcprt.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\MSVCRT.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\OLDNAMES.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\vcruntime.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\ucrt\x86\ucrt.lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/opengl\OpenGL32.Lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glfw/lib\glfw3.lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glew/lib/Release/Win32\glew32.lib:
+  
+  Durchsuchen der Bibliotheken abgeschlossen.
+  
+  EXP-Datei wird generiert.
+     Bibliothek "bin\Win32\Release)\CopyGlProject.lib" und Objekt "bin\Win32\Release)\CopyGlProject.exp" werden erstellt.
+  
+  Generieren der EXP-Datei beendet.
+  
+  Bibliotheken werden durchsucht.
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/opengl\OpenGL32.Lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glfw/lib\glfw3.lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glew/lib/Release/Win32\glew32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\kernel32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\user32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\gdi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\winspool.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\comdlg32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\advapi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\shell32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\ole32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\oleaut32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\uuid.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\odbc32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\odbccp32.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\msvcprt.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\MSVCRT.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\OLDNAMES.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\vcruntime.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\ucrt\x86\ucrt.lib:
+  
+  Durchsuchen der Bibliotheken abgeschlossen.
+  
+  Bibliotheken werden durchsucht.
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/opengl\OpenGL32.Lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glfw/lib\glfw3.lib:
+      Durchsuchen von D:\Visual Studio 2017\Projects\CopyGlProject\thirdparty/glew/lib/Release/Win32\glew32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\kernel32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\user32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\gdi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\winspool.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\comdlg32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\advapi32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\shell32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\ole32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\oleaut32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\uuid.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\odbc32.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\um\x86\odbccp32.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\msvcprt.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\MSVCRT.lib:
+        ___scrt_stub_for_acrt_initialize gefunden.
+          "MSVCRT.lib(ucrt_stubs.obj)" geladen
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\OLDNAMES.lib:
+      Durchsuchen von C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\lib\x86\vcruntime.lib:
+      Durchsuchen von C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\ucrt\x86\ucrt.lib:
+  
+  Durchsuchen der Bibliotheken abgeschlossen.
+  
+  Durchlauf 1 abgeschlossen
+  
+Window.obj : error LNK2001: Nicht aufgelöstes externes Symbol ""__declspec(dllimport) public: virtual __thiscall gfm::input::Window::~Window(void)" (__imp_??1Window@input@gfm@@UAE@XZ)".
+bin\Win32\Release)\CopyGlProject.exe : fatal error LNK1120: 1 nicht aufgelöste Externe
