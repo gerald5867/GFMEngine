@@ -30,7 +30,7 @@
 #include "Graphic\CircleRenderer.h"
 #include "GPUApi/GL/GLUniformBuffer.h"
 #include "Graphic\Circle.h"
-
+#include "GPUApi/GL/GLTexture2D.h"
 //WINDOW CLASS FOR EVERY PLATFORM
 //BASIC KLASSE GFM OBJECT
 //MORE FILES MACRO
@@ -38,6 +38,8 @@
 //TODO MAKE SHADER SPELL THERE NAME ON ERROR
 //LOGGER VON OPENGL STUFF BEFREIEN
 //OS LIB
+//complete matrix and vector classes and change matrix to colum major
+//add template matricies and vectors
 //NET LIB
 //random LIB
 //TIMER
@@ -60,6 +62,8 @@
 //BASE THREAD
 // THREAD POOL
 //CIRCLE RENDERER CHECK MAX UBO SIZE AND MAKE MULTIPLE IF NEEDED FOR 64kb
+//TODO: CUSTOM EXCEPTIONS !!!
+//TODO: ASSET SERVER WHO CACHES TEXTURES ETC
 //https://stackoverflow.com/questions/1010106/how-to-debug-heap-corruption-errors
 //https://stackoverflow.com/questions/1169858/global-memory-management-in-c-in-stack-or-heap
 
@@ -78,6 +82,7 @@ void main() {
 		auto& gpmgr = GraphicObjectFactory::Initialize(GraphicAPI::eOPENGL);
 		gfm::List<Circle> circels;
 		gfm::List<Rectangle> angles;
+		gfm::INTERNAL::gpu::GL::GLTexture2D tex(GFM_STRING("C:/ogl_sm.jpg"));
 		int row = 0;
 		int col = 0;
 		//circels.Reserve(250);

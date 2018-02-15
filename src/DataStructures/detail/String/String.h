@@ -263,6 +263,9 @@ namespace gfm
 		String ChangeForEachAndCopy(void(*predicate)(CharType&, CharType)) const;
 		void GrowIfToSmall(SizeType toGrowSize);
 		void Grow(SizeType toGrowSize);
+	public:
+		static const String empty;
+
 	private: 
 		static const constexpr utils::int32 ms_SSOSIZE = std::numeric_limits<utils::uint64>::digits + 1;
 
@@ -274,6 +277,7 @@ namespace gfm
 		memory::DefaultAllocator m_allocator;
 		SizeType			     m_length   = 0;
 		SizeType				 m_capacity = 0;
+
 	};//class String
 
 }//namespace gfm

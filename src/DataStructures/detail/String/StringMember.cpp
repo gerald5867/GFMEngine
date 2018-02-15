@@ -2,6 +2,8 @@
 #include <stdexcept>
 #include "String.h"
 
+const gfm::String gfm::String::empty("");
+
 gfm::String gfm::String::ToLower() const {
 	return ChangeForEachAndCopy([](CharType& ch, CharType tch) {
 		ch = detail::CStringHelper::ToLower(tch);

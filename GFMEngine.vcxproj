@@ -24,6 +24,8 @@
     <ClCompile Include="src\GPUApi\GL\GLGraphicCommandHandler.cpp" />
     <ClCompile Include="src\GPUApi\GL\GLErrorHandler.cpp" />
     <ClCompile Include="src\GPUApi\GL\GLContext.cpp" />
+    <ClCompile Include="src\Utils\File\FileExists.cpp" />
+    <ClCompile Include="thirdparty\stb\stbimage.cpp" />
     <ClInclude Include="src\DataStructures\detail\Dictionary.h" />
     <ClInclude Include="src\GPUApi\GL\GLContext.h" />
     <ClCompile Include="src\GPUApi\GL\GLIndexBuffer.cpp" />
@@ -88,6 +90,8 @@
     <ClCompile Include="src\Utils\File\GetFileFromPath.cpp" />
     <ClCompile Include="src\Utils\File\ReadAllLines.cpp" />
     <ClCompile Include="src\Utils\Logger.cpp" />
+    <ClInclude Include="src\Utils\File\FileExists.h" />
+    <ClInclude Include="thirdparty\stb\stbimage.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Algorithm\All.h" />

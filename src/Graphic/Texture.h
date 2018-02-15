@@ -19,7 +19,7 @@ namespace graphic {
 
 	GFM_APICALL enum class TextureFilter
 	{
-		LINEAR, NEAREST, NONE = -1,
+		eLINEAR, eNEAREST, eNONE = -1,
 	};
 
 	GFM_APICALL struct TextureOptions final {
@@ -29,6 +29,7 @@ namespace graphic {
 		TextureWrap xTextureWrap;
 		TextureWrap yTextureWrap;
 		TextureWrap zTextureWrap;
+		TextureFormat textureFormat;
 		bool flipVertical;
 		bool flipHorizontal;
 	};

@@ -3,9 +3,8 @@
 #include "../Memory/UniquePointer.h"
 namespace gfm {
 namespace math {
-	class Vector4D;
-}
-	template<typename, typename = memory::DefaultAllocator> class List;
+	struct Vector4D;
+}//math
 	class String;
 namespace graphic {
 
@@ -13,14 +12,15 @@ namespace graphic {
 	{
 		public:
 			using Texture2DPtr = typename memory::UniquePointer<Texture2D>;
+			using int32 = utils::int32;
 			using uint32 = utils::uint32;
 			using Vec4 = math::Vector4D;
 
 		public:
 			virtual ~Texture2D() noexcept = default;
 			
-			virtual utils::uint32 GetWidth() const noexcept = 0;
-			virtual utils::uint32 GetHeight() const noexcept = 0;
+			virtual int32 GetWidth() const noexcept = 0;
+			virtual int32 GetHeight() const noexcept = 0;
 
 			virtual void UploadData(const void* pixels) = 0;
 			virtual void UploadData(const Vec4& color) = 0;

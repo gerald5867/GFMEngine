@@ -1,7 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: Das Zwischenverzeichnis (bin\objfiles\Win32\Debug\) enthält freigegebene Dateien aus einem anderen Projekt (CopyGlProject.vcxproj). Dies kann zu einem falschen Bereinigungs- und Neuerstellungsverhalten führen.
-  StringVarArgMaxLen.h
-  GLTexture.cpp
-  GLShader.cpp
-  Rectangle.cpp
-LINK : warning LNK4098: Standardbibliothek "MSVCRT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
-  GFMEngine.vcxproj -> C:\Users\Gerald\Desktop\GFMEngine-master\GFMEngine\bin\Win32\Debug)\GFMEngine.exe
+  GLTexture2D.cpp
+d:\gfmengine\src\gpuapi\gl\gltexture2d.h(59): warning C4250: "gfm::INTERNAL::gpu::GL::GLTexture2D": Erbt "gfm::INTERNAL::gpu::GL::GLTexture<gfm::INTERNAL::gpu::GL::GLTexture2D,3553>::gfm::INTERNAL::gpu::GL::GLTexture<gfm::INTERNAL::gpu::GL::GLTexture2D,3553>::Bind" via Dominanz
+  d:\gfmengine\src\gpuapi\gl\gltexture.h(27): note: Siehe Deklaration von "gfm::INTERNAL::gpu::GL::GLTexture<gfm::INTERNAL::gpu::GL::GLTexture2D,3553>::Bind"
+d:\gfmengine\src\gpuapi\gl\gltexture2d.h(59): warning C4250: "gfm::INTERNAL::gpu::GL::GLTexture2D": Erbt "gfm::INTERNAL::gpu::GL::GLTexture<gfm::INTERNAL::gpu::GL::GLTexture2D,3553>::gfm::INTERNAL::gpu::GL::GLTexture<gfm::INTERNAL::gpu::GL::GLTexture2D,3553>::Unbind" via Dominanz
+  d:\gfmengine\src\gpuapi\gl\gltexture.h(28): note: Siehe Deklaration von "gfm::INTERNAL::gpu::GL::GLTexture<gfm::INTERNAL::gpu::GL::GLTexture2D,3553>::Unbind"
+  GFMEngine.vcxproj -> D:\GFMEngine\bin\Win32\Debug)\GFMEngine.exe
+  GFMEngine.vcxproj -> bin\Win32\Debug)\GFMEngine.pdb (Partial PDB)
