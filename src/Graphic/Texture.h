@@ -1,5 +1,6 @@
 #pragma once
 #include "../DataStructures/String.h"
+#include "../Math/Vector.h"
 #include "../Utils/Types.h"
 #include "../Macro/ApiCall.h"
 #ifndef TEXTURE_H
@@ -8,25 +9,49 @@ namespace gfm {
 namespace graphic {
 
 	GFM_APICALL enum class TextureFormat {
-		eR8B8G8A8
+		eRGBA, eRGB, eNONE = -1
 	};
 
-	GFM_APICALL class Texture
+	GFM_APICALL enum class TextureWrap
 	{
+		eREPEAT, eCLAMP, eMIRRORED_REPEAT, eCLAMP_TO_EDGE, eCLAMP_TO_BORDER, eNONE = -1
+	};
+
+	GFM_APICALL enum class TextureFilter
+	{
+		LINEAR, NEAREST, NONE = -1,
+	};
+
+	GFM_APICALL struct TextureOptions final {
+		math::Vec4 borderColor;
+		TextureFilter minFilter;
+		TextureFilter maxFiler;
+		TextureWrap xTextureWrap;
+		TextureWrap yTextureWrap;
+		TextureWrap zTextureWrap;
+		bool flipVertical;
+		bool flipHorizontal;
+	};
+
+	GFM_APICALL class Texture {
 		public:
 			virtual ~Texture() noexcept = default;
-			Texture(const String& filePath);
 			
-			virtual void Bind() = 0;
-			virtual void Unbind() = 0;
+			virtual void Bind(utils::int32 slot = 0) = 0;
+			virtual void Unbind(utils::int32 slot = 0) = 0;
 
-		public:
-			const String& GetFilePath() const noexcept;
+			virtual const String& GetFilePath() const noexcept = 0;
+			virtual utils::int32 GetFormatStride() const noexcept = 0;
+			virtual TextureFormat GetTextureFormat() const noexcept = 0;
 
 		protected:
-			utils::uint32 m_width;
-			utils::uint32 m_height;
-			String m_filePath;
+			Texture() = default;
+
+		public:
+			Texture(const Texture&) = delete;
+			Texture(Texture&&) = delete;
+			Texture& operator = (const Texture&) = delete;
+			Texture& operator = (Texture&&) = delete;
 	};
 
 }//graphic

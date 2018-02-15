@@ -1,66 +1,7 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: Das Zwischenverzeichnis (bin\objfiles\Win32\Debug\) enthält freigegebene Dateien aus einem anderen Projekt (CopyGlProject.vcxproj). Dies kann zu einem falschen Bereinigungs- und Neuerstellungsverhalten führen.
-  Context.cpp
-  ErrorHandler.cpp
-  GLGraphicCommandHandler.cpp
-  GLErrorHandler.cpp
-  GLContext.cpp
-  GLIndexBuffer.cpp
-  Application.cpp
-  CStringHelper.h
-  String.h
-  StringCtor.cpp
-  StringFormatVarArg.cpp
-  StringMember.cpp
-  ObjectContainer.inl
   StringVarArgMaxLen.h
-  StringVarArgWrapper.h
-  GLBuffer.cpp
-  GLPipeline.cpp
-  GLPipelineLayout.cpp
-  GLUniformBuffer.cpp
-  GLVertexBuffer.cpp
-d:\gfmengine\src\datastructures\detail\string\stringformatvararg.cpp(116): warning C4544: "Dummy": Standardvorlagenargument wird für diese Vorlagendeklaration ignoriert
-  d:\gfmengine\src\datastructures\detail\string\stringformatvararg.cpp(111): note: Siehe Deklaration von "Dummy"
-  Buffer.cpp
-  GraphicAPI.cpp
-  GraphicCommandHandler.cpp
-  VertexAttribute.h
-  GraphicObjectFactory.cpp
-  PipelineManager.cpp
-  Circle.cpp
-  IRenderer.cpp
-  IRenderer2D.cpp
-  RectangleRenderer.cpp
-  Keyboard.cpp
-  Mouse.cpp
-  Window.cpp
-  GLWindow.cpp
-  main.cpp
-  Constants.cpp
-  MemoryAllocator.cpp
-d:\gfmengine\src\gpuapi\graphicobjectfactory.cpp(45): warning C4715: "gfm::INTERNAL::gpu::GraphicObjectFactory::CreateIndexBuffer": Nicht alle Codepfade geben einen Wert zurück.
-d:\gfmengine\src\gpuapi\graphicobjectfactory.cpp(37): warning C4715: "gfm::INTERNAL::gpu::GraphicObjectFactory::CreateVertexBuffer": Nicht alle Codepfade geben einen Wert zurück.
-d:\gfmengine\src\gpuapi\graphicobjectfactory.cpp(54): warning C4715: "gfm::INTERNAL::gpu::GraphicObjectFactory::CreateUniformBuffer": Nicht alle Codepfade geben einen Wert zurück.
-d:\gfmengine\src\gpuapi\graphicobjectfactory.cpp(62): warning C4715: "gfm::INTERNAL::gpu::GraphicObjectFactory::CreatePipelineLayout": Nicht alle Codepfade geben einen Wert zurück.
-  UNIXChangeCoutColor.cpp
-  WINChangeCoutColor.cpp
-  AbstractRangeBased.h
-  Date.cpp
-  FileOpenMode.cpp
-  FileStream.cpp
-  GetFileFromPath.cpp
-  ReadAllLines.cpp
-d:\gfmengine\src\input\window.cpp(25): warning C4715: "gfm::input::Window::Create": Nicht alle Codepfade geben einen Wert zurück.
-  Logger.cpp
-  Matrix2x2.cpp
-  Matrix3x3.cpp
-  Matrix4x4.cpp
-  Vector2D.cpp
-  Vector3D.cpp
-  Vector4D.cpp
-  CircleRenderer.cpp
+  GLTexture.cpp
   GLShader.cpp
   Rectangle.cpp
 LINK : warning LNK4098: Standardbibliothek "MSVCRT" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
-  GFMEngine.vcxproj -> D:\GFMEngine\bin\Win32\Debug)\GFMEngine.exe
-  GFMEngine.vcxproj -> bin\Win32\Debug)\GFMEngine.pdb (Partial PDB)
+  GFMEngine.vcxproj -> C:\Users\Gerald\Desktop\GFMEngine-master\GFMEngine\bin\Win32\Debug)\GFMEngine.exe

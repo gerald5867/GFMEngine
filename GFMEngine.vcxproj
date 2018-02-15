@@ -45,11 +45,15 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="src\GPUApi\GL\GLTexture.cpp" />
+    <ClCompile Include="src\GPUApi\GL\GLTexture2D.cpp" />
     <ClCompile Include="src\GPUApi\GL\GLUniformBuffer.cpp" />
     <ClCompile Include="src\GPUApi\GL\GLVertexBuffer.cpp" />
     <ClCompile Include="src\GPUApi\Buffer.cpp" />
     <ClCompile Include="src\GPUApi\GraphicAPI.cpp" />
     <ClCompile Include="src\GPUApi\GraphicCommandHandler.cpp" />
+    <ClInclude Include="src\GPUApi\GL\GLTexture.h" />
+    <ClInclude Include="src\GPUApi\GL\GLTexture2D.h" />
     <ClInclude Include="src\GPUApi\GL\GLUniformBuffer.h" />
     <ClInclude Include="src\GPUApi\GraphicCommandHandler.h" />
     <ClCompile Include="src\GPUApi\VertexAttribute.h" />
@@ -106,6 +110,8 @@
     <ClInclude Include="src\Graphic\IRenderer.h" />
     <ClInclude Include="src\Graphic\IRenderer2D.h" />
     <ClInclude Include="src\Graphic\RectangleRenderer.h" />
+    <ClInclude Include="src\Graphic\Texture.h" />
+    <ClInclude Include="src\Graphic\Texture2D.h" />
     <ClInclude Include="src\Input\Window.h" />
     <ClInclude Include="src\Macro\ApiCall.h" />
     <ClInclude Include="src\Macro\Assertions.h" />
