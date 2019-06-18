@@ -1,3 +1,3 @@
 # GFMEngine
 
-Die ist der Anfang meiner Game Engine mit der Vulkan API
+Die ist der Anfang meiner Game Engine mit OpenGL
